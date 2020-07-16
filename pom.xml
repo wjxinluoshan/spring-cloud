@@ -13,6 +13,7 @@
     <module>eureka-service-8001</module>
     <module>eureka.service-8002</module>
     <module>eureka-consumer-7001</module>
+      <module>eureka-feign-7002</module>
   </modules>
 
   <name>Maven</name>
