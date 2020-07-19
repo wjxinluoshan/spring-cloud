@@ -1,0 +1,26 @@
+server:
+  port: 8003
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9090/eureka/
+
+
+spring:
+  application:
+    name: service-zuul
+zuul:
+  routes:
+    #    Map 类型,此处的 api-a就是key， path和 serviceId 就是 class ZuulRoute的成员
+    #    /**
+    #		 * The service ID (if any) to map to this route. You can specify a physical URL or
+    #		 * a service, but not both.
+    #		 */
+    #		private String serviceId;
+    zuul-1:
+      path: /zuul-1/**
+      serviceId: service
+    zuul-2:
+      path: /zuul-2/**
+      serviceId: service

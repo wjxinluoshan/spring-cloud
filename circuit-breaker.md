@@ -1,3 +1,4 @@
+- 配置在客户端
 # hystrix  
 - 对特定服务的调用的不可用达到一个阈值就启动断路器  
 ![断路器](https://www.fangzhipeng.com/img/jianshu/2279594-8dcb1f208d62046f.png)  
