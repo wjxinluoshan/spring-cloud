@@ -1,0 +1,23 @@
+eureka:
+  instance:
+    appname: config-client
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka/
+
+spring:
+  cloud:
+    config:
+      # 这个uri就是config server
+      #      uri: http://${eureka.instance.appname}:8050/
+      #      仓库分支
+      label: master
+      #      配置文件名（prefix）： https://github.com/wjxinluoshan/spring-cloud-config 下的 wjx.properties(wjx.yml)
+      name: wjx-dev
+      discovery:
+        enabled: true
+        #    必须是注册配置服务的spring.application.name = config-server
+        service-id: config-server
+
+server:
+  port: 8051

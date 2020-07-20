@@ -16,6 +16,8 @@
       <module>eureka-feign-7002</module>
       <module>hystrix-7003</module>
     <module>service-zuul-8003</module>
+      <module>cloud-config-8050</module>
+      <module>cloud-config-client-8051</module>
   </modules>
 
   <name>Maven</name>
