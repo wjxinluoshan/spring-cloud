@@ -1,6 +1,8 @@
-package com.ajobs.server9090.controller;
+package com.ajobs.service8001.controller;
 
 
+import io.choerodon.core.iam.ResourceLevel;
+import io.choerodon.swagger.annotation.Permission;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

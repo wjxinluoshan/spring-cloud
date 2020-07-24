@@ -1,4 +1,4 @@
-package com.ajobs.server9090;
+package com.ajobs.service8001;
 
 
 import org.springframework.boot.SpringApplication;

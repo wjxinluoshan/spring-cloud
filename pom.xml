@@ -20,6 +20,7 @@
         <module>cloud-config-client-8051</module>
         <module>cloud-gateway-8081</module>
         <module>cloud-swagger-8072</module>
+        <module>ajobs-wjx-validator</module>
     </modules>
 
     <name>Maven</name>
@@ -56,7 +57,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>6.0.13.Final</version>
+            </dependency>
             <dependency>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-reflect</artifactId>

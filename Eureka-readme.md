@@ -27,4 +27,9 @@
 
 
 
+- register: 客户端向服务端注册数据，并提供元数据信息  
+- renew： 客户端向服务端续约  
+- fetch registries: 
+
+
 
